@@ -1,13 +1,11 @@
 
 # Vorax
 
-## Badges
 
 ![python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![opencv](https://img.shields.io/badge/opencv-enabled-success)
 ![yolo](https://img.shields.io/badge/ultralytics-yolo-informational)
 
-## Video
 
 [![Vorax logo](assets/logo.gif)](https://youtu.be/ucNhOMzyAVw)
 
@@ -15,7 +13,6 @@
 
 Vorax is a computer-vision security app that monitors a defined “porch / drop-off” zone in a video feed, detects when a delivery has been made, and then watches for suspicious behavior that could indicate package theft. It combines YOLO-based object detection and tracking with zone-aware logic to confirm a package is stationary (delivered), identify likely delivery drivers, detect package movement or disappearance after delivery, and automatically send Telegram notifications with captured screenshots. The biggest challenges are handling occlusions, short-lived tracker IDs, and avoiding false alarms when packages briefly vanish behind a person; future improvements include stronger re-identification across occlusions, multi-package support, and more flexible per-camera rules.
 
-## Project Description
 
 ### What it does
 
