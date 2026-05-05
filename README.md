@@ -1,7 +1,6 @@
-<<<<<<< HEAD
-# PorchGuard-AI
-PorchGuard AI uses computer vision to monitor a delivery zone, detect delivered packages, and flag possible theft. It sends Telegram alerts with screenshots. Challenges include occlusions and false alarms. Future plans: better re-identification, multi-package support, and per-camera rules.
-=======
+
+# Vorax
+
 ## Badges
 
 ![python](https://img.shields.io/badge/python-3.10%2B-blue)
@@ -146,4 +145,4 @@ Notes:
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
->>>>>>> 216b183 (Initial commit: Vorax)
+
