@@ -9,11 +9,7 @@
 
 ## Video
 
-[![Vorax demo video](https://img.youtube.com/vi/ucNhOMzyAVw/maxresdefault.jpg)](https://youtu.be/ucNhOMzyAVw)
-
-<p align="center">
-  <img src="assets/Logo.png" alt="Vorax Logo" width="220" />
-</p>
+[![Vorax logo](assets/logo.gif)](https://youtu.be/ucNhOMzyAVw)
 
 # Vorax
 
