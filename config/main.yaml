@@ -1,0 +1,42 @@
+paths:
+  credentials: credentials.json
+  zone: zone.json
+  incidents_dir: logs/incidents
+  logs_dir: logs
+
+video:
+  name: delivery_ (1).mp4
+
+ui:
+  window_name: Video Frame
+
+yolo:
+  weights_primary: models/parcel_delivery_best.pt
+  weights_fallback: models/best.pt
+  conf_threshold: 0.2
+  iou_threshold: 0.45
+  img_size: 1280
+  max_det: 100
+  target_class_ids: [0, 1]
+
+classes:
+  package_class_id: 0
+  person_class_id: 1
+
+detector:
+  package_ready_seconds: 3.0
+  package_ready_frames: 30
+  package_missing_frames: 15
+  package_move_thresh_px: 35
+  alert_cooldown_frames: 300
+  package_persist_frames: 10
+  delivery_stationary_seconds: 2.0
+
+notifier:
+  send_test_message_on_start: true
+
+logging:
+  level: INFO
+  rotate_max_bytes: 5000000
+  rotate_backup_count: 5
+  console: true

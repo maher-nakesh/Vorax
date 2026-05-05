@@ -1,0 +1,12 @@
+data_yaml: datasets/my_dataset/package_person_nomerged.yaml
+base_weights: models/parcel_delivery_best.pt
+project: runs
+name: my_dataset_package_person_finetune_continued
+epochs: 50
+imgsz: 960
+batch: 8
+workers: 8
+exist_ok: true
+models_dir: models
+best_output: parcel_delivery_best.pt
+last_output: parcel_delivery_last.pt

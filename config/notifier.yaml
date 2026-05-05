@@ -1,0 +1,6 @@
+screenshots:
+  temp_dir: logs/alert_screenshots
+  max_screenshots: 4
+  delay_frames: [0, 22, 45, 75]
+  send_completion_message: true
+  completion_message_text: "✅ All screenshots sent. Check camera feed."
