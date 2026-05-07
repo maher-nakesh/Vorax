@@ -12,7 +12,7 @@
 # Vorax
 
 Vorax is a computer-vision security app that monitors a defined “porch / drop-off” zone in a video feed, detects when a delivery has been made, and then watches for suspicious behavior that could indicate package theft. It combines YOLO-based object detection and tracking with zone-aware logic to confirm a package is stationary (delivered), identify likely delivery drivers, detect package movement or disappearance after delivery, and automatically send Telegram notifications with captured screenshots. The biggest challenges are handling occlusions, short-lived tracker IDs, and avoiding false alarms when packages briefly vanish behind a person; future improvements include stronger re-identification across occlusions, multi-package support, and more flexible per-camera rules.
-
+**https://youtu.be/ucNhOMzyAVw?si=8vpLuD3koxsE7qVT**
 
 ### What it does
 
