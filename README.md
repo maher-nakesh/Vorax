@@ -114,8 +114,10 @@ Common settings:
 Notifier config: `config/notifier.yaml` (controls screenshots/capture cadence)
 
 ## Notifications (Telegram)
+Create a Telegram bot to receive the notifications .
+you should use the APi token of the bot and your account ID to receive the notifications.
 
-Create a `credentials.json` file (see `config/main.yaml` path settings) with:
+Create a `credentials.json` file if missing or invalid (see `config/main.yaml` path settings) with:
 
 ```json
 {
